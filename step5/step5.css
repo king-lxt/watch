@@ -1,0 +1,45 @@
+/* Ai导出时生成的样式 每次使用时需要替换*/
+.st0 {
+    fill: #DF5A48;
+}
+
+.st1 {
+    fill: #ECF0F0;
+}
+
+.st2 {
+    fill: #334D5D;
+}
+
+.st3 {
+    fill: #BD3E25;
+}
+
+.st4 {
+    fill: #2B414F;
+}
+
+.st5 {
+    fill: #FFFFFF;
+}
+
+/* ************************************************** */
+.pointer {
+    transform-origin: 175px 175px
+}
+
+/* ************************************************** */
+/*把线性linear去掉，改成steps(60) */
+.second {
+    animation: second steps(60) 60s infinite;
+}
+
+.minute {
+    animation: minute linear 3600s infinite;
+}
+
+.hour {
+    animation: hour linear 216000s infinite;
+}
+
+/* ************************************************** */

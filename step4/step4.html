@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./step4.css">
+    <title>Document</title>
+</head>
+<body>
+   <svg class="container">
+        <!--圆形底盘-->
+        <circle class="base" cx="400" cy="300" r="200" /> 
+        <!--长度为180的秒针-->
+        <line class="pointer second" id="second" x1="400" y1="300" x2="400" y2="120"/>
+        <!--长度为140的分针-->
+        <line class="pointer minute" id="minute" x1="400" y1="300" x2="400" y2="160"/>
+        <!--长度为80的时针-->
+        <line class="pointer hour" id="hour" x1="400" y1="300" x2="400" y2="220"/>
+   </svg>
+   <script src="./step4.js"></script>
+</body>
+</html>
